@@ -73,6 +73,45 @@ main{
   font-size: 2rem;
 }
 
+/*About Page*/
+.about-container{
+  margin: 0 5%;
+}
+
+.about-container h2{
+  color: var(--nav-primary);
+}
+
+.about-container h2:not(:first-child){
+  margin-top: 5%;
+}
+
+.about-container p, .about-container ul li{
+  color: var(--nav-secondary);
+}
+
+.about-container .subcategory{
+  font-weight: 500;
+}
+
+.about-container p{
+  margin-left: 3%;
+  font-size: 1.2rem;
+}
+
+.about-container ul{
+  margin-left: 3%;
+}
+
+.about-container ul li{
+  font-size: 1.2rem;
+}
+
+.about-container ul li a{
+  text-decoration: none;
+  color: var(--icon-primary);
+}
+
 /*Universal navbar*/
 .navbar{
   position: fixed;
