@@ -94,9 +94,18 @@ main{
   font-weight: 500;
 }
 
+.sub-details{
+  padding-left: 3%;
+}
+
 .about-container p{
   margin-left: 3%;
   font-size: 1.2rem;
+}
+
+.about-container p a{
+  text-decoration: none;
+  color: var(--icon-primary);
 }
 
 .about-container ul{
